@@ -4,9 +4,10 @@
  *
  * 使い方：
  * 1. 下の設定を書き換える
- * 2. testMultiplePlaylistReplacement() で確認
- * 3. 問題なければ EXECUTE = true に変更
- * 4. replaceMultiplePlaylistVideos() を実行
+ * 2. EXECUTE = false に変更
+ * 3. testMultiplePlaylistReplacement() で確認
+ * 4. 問題なければ EXECUTE = true に変更
+ * 5. replaceMultiplePlaylistVideos() を実行
  *
  * YouTube Data API v3 の拡張サービスが必要
  */
