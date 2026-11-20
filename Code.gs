@@ -321,3 +321,14 @@ function validateMultipleConfig_(config) {
     )
   ) {
     throw new Error("OLD_VIDEO_IDS を設定してください。");
+}
+
+  if (
+    new Set(config.OLD_VIDEO_IDS).size !==
+    config.OLD_VIDEO_IDS.length
+  ) {
+    throw new Error("旧動画IDが重複しています。");
+  }
+
+}
+
